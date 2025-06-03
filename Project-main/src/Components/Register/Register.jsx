@@ -189,10 +189,6 @@ function Register() {
           )}
 
            
-            <input 
-            type="file"
-            name="userPhoto"
-            />
 
           <button type="submit" className="register-button" disabled={isLoading}>
             {isLoading ? "Registering..." : "Register"}
